@@ -1,0 +1,5 @@
+config SHIELD_OBSIDIAN_LEFT
+    def_bool $(shields_list_contains,obsidian_left)
+
+config SHIELD_OBSIDIAN_RIGHT
+    def_bool $(shields_list_contains,obsidian_right)

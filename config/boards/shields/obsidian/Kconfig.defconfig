@@ -1,0 +1,25 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+if SHIELD_OBSIDIAN_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Obsidian"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_OBSIDIAN_LEFT || SHIELD_OBSIDIAN_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

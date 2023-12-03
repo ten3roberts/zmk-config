@@ -1,0 +1,11 @@
+file_format: "1"
+id: obsidian
+name: Obsidian
+type: shield
+url: https://github.com/ten3roberts/obsidian
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - obsidian_left
+  - obsidian_right
